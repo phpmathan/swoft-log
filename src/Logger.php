@@ -654,7 +654,7 @@ class Logger extends \Monolog\Logger
      */
     private function getUri(): string
     {
-        return context()->get('uri', '');
+        return (string) context()->get('uri', '');
     }
 
     /**
