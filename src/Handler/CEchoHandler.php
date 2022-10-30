@@ -16,7 +16,7 @@ use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
 use Swoft\Log\Logger as SwoftLogger;
 use Toolkit\Cli\Color;
-use Toolkit\Cli\ColorTag;
+use Toolkit\Cli\Color\ColorTag;
 use function in_array;
 use function sprintf;
 
