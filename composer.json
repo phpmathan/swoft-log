@@ -14,8 +14,8 @@
   "homepage": "https://github.com/swoft-cloud/swoft-log",
   "license": "Apache-2.0",
   "require": {
-    "php": ">=8.1",
-    "monolog/monolog": "^3.2",
+    "php": ">=7.1",
+    "monolog/monolog": "^1.24",
     "toolkit/cli-utils": "^2.0",
     "swoft/stdlib": "~2.0.0"
   },
